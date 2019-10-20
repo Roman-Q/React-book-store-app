@@ -13,4 +13,4 @@ const mapDispatchToProps = dispatch => ({
   ...bindActionCreators(cartActions, dispatch),
 });
 
-export default connect(mapStateToProps, mapDispatchToProps,)(BookCard);
+export default connect(mapStateToProps, mapDispatchToProps)(BookCard);
